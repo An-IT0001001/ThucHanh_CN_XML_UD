@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lop>
+    <sinhvien>
+        <id>KTPM001</id>
+        <name>Tran Quoc An</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Lý</subject_name>
+                <score>7.0</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+
+    <sinhvien>
+        <id>KTPM002</id>
+        <name>Trần Thiên Nhiên</name>
+        <subjects>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>9.0</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+</lop>
