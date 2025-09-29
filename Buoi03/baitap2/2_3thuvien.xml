@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="orders.xsd">
+    <customers>
+        <customer id="C001">
+            <name>Trần Quốc An</name>
+        </customer>
+        <customer id="C002">
+            <name>Phạm Thị Lụa</name>
+        </customer>
+    </customers>
+    <orders>
+        <order id="O001">
+            <customer ref="C001"/>
+            <product id="P001">
+                <title>Lập trình Java cơ bản</title>
+                <year>2022</year>
+            </product>
+            <product id="P002">
+                <title>Cơ sở dữ liệu</title>
+                <year>2022</year>
+            </product>
+        </order>
+        <order id="O002">
+            <customer ref="C002"/>
+            <product id="P001">
+                <title>Thám Tử Lừng Danh</title>
+                <year>1862</year>
+            </product>
+        </order>
+    </orders>
+
+</library>
